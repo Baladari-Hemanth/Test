@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Excell data with login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>18fbdf0c-ea6b-4a43-b888-a3fe46b8b5c7</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>022c3c7a-7767-47a5-b161-b0cafb93bf54</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9e49db7a-fb2e-4831-8d42-6b7e62918556</id>
+      <masked>false</masked>
+      <name>pswrd</name>
+   </variable>
+</TestCaseEntity>

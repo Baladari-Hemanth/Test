@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_1</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-07-17T12:35:26</lastRun>
+   <mailRecipient>baladari.hemanth73@gmail.com;</mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>59834ff0-5d7d-450b-83cf-688b8ccb75d5</testSuiteGuid>
+   <testCaseLink>
+      <guid>07359c34-c60a-483f-a0fe-fb750bd6ef75</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data Files/Excell data with login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>50f8a01a-f83f-49f6-9da7-5e68c8b4ce0a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Excell_Data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>50f8a01a-f83f-49f6-9da7-5e68c8b4ce0a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>022c3c7a-7767-47a5-b161-b0cafb93bf54</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>50f8a01a-f83f-49f6-9da7-5e68c8b4ce0a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>9e49db7a-fb2e-4831-8d42-6b7e62918556</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

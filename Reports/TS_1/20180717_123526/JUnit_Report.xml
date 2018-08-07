@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_1" time="41" tests="0" failures="1" errors="0">
+   <testsuite name="TS_1" tests="0" failures="1" errors="0" time="41" timestamp="2018-07-17 12:35:30" hostname="hemant - DESKTOP-9OVOBQD" id="Test Suites/TS_1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hemant\\Katalon Studio\\H_Katalon_Learning\\Reports\\TS_1\\20180717_123526"/>
+         <property name="logFiles" value="C:\\Users\\hemant\\Katalon Studio\\H_Katalon_Learning\\Reports\\TS_1\\20180717_123526\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\hemant\\Katalon Studio\\H_Katalon_Learning\\Reports\\TS_1\\20180717_123526\\1531811170583.png"/>
+         <property name="hostName" value="hemant - DESKTOP-9OVOBQD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.1.207"/>
+         <property name="sessionId" value="9c9e04585c28285fa8065eb7e93b7f05"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Drag_And_Drop/TC_1" classname="Test Cases/Drag_And_Drop/TC_1" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Drag_And_Drop/Page_Droppable  jQuery UI/div_Dropped' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Drag_And_Drop/Page_Droppable  jQuery UI/div_Dropped' located by 'By.xpath: //div[@id = 'droppable' and (text() = '
+	Dropped!
+' or . = '
+	Dropped!
+')]' not found)"/>
+         <system-out><![CDATA[2018-07-17 12:35:30 - [TEST_CASE][FAILED] - Test Cases/Drag_And_Drop/TC_1: Test Cases/Drag_And_Drop/TC_1 FAILED because (of) Unable to click on object 'Object Repository/Drag_And_Drop/Page_Droppable  jQuery UI/div_Dropped' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Drag_And_Drop/Page_Droppable  jQuery UI/div_Dropped' located by 'By.xpath: //div[@id = 'droppable' and (text() = '
+	Dropped!
+' or . = '
+	Dropped!
+')]' not found)
+
+2018-07-17 12:35:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-17 12:35:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-17 12:35:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://jqueryui.com/droppable/#default' successfully
+
+2018-07-17 12:35:39 - [MESSAGE][PASSED] - Navigate to 'http://jqueryui.com/droppable/#default' successfully
+
+2018-07-17 12:35:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Drag_And_Drop/Page_Droppable  jQuery UI/div_Drag me to my target' is clicked on
+
+2018-07-17 12:35:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Drag_And_Drop/Page_Droppable  jQuery UI/div_Drag me to my target' is clicked on
+
+2018-07-17 12:35:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Drag_And_Drop/Page_Droppable  jQuery UI/div_Drag me to my target' is clicked on
+
+2018-07-17 12:35:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Drag_And_Drop/Page_Droppable  jQuery UI/div_Drag me to my target' is clicked on
+
+2018-07-17 12:35:39 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Drag_And_Drop/Page_Droppable  jQuery UI/div_Dropped' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Drag_And_Drop/Page_Droppable  jQuery UI/div_Dropped' located by 'By.xpath: //div[@id = 'droppable' and (text() = '
+	Dropped!
+' or . = '
+	Dropped!
+')]' not found)
+
+2018-07-17 12:36:10 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Drag_And_Drop/Page_Droppable  jQuery UI/div_Dropped' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Drag_And_Drop/Page_Droppable  jQuery UI/div_Dropped' located by 'By.xpath: //div[@id = 'droppable' and (text() = '
+	Dropped!
+' or . = '
+	Dropped!
+')]' not found)
+[[ATTACHMENT|C:\\Users\\hemant\\Katalon Studio\\H_Katalon_Learning\\Reports\\TS_1\\20180717_123526\\1531811170583.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-17 12:35:30 - [TEST_CASE][FAILED] - Test Cases/Drag_And_Drop/TC_1: Test Cases/Drag_And_Drop/TC_1 FAILED because (of) Unable to click on object 'Object Repository/Drag_And_Drop/Page_Droppable  jQuery UI/div_Dropped' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Drag_And_Drop/Page_Droppable  jQuery UI/div_Dropped' located by 'By.xpath: //div[@id = 'droppable' and (text() = '
+	Dropped!
+' or . = '
+	Dropped!
+')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-17 12:35:30 - [TEST_SUITE][FAILED] - TS_1: Test Cases/Drag_And_Drop/TC_1 FAILED because (of) Unable to click on object 'Object Repository/Drag_And_Drop/Page_Droppable  jQuery UI/div_Dropped' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Drag_And_Drop/Page_Droppable  jQuery UI/div_Dropped' located by 'By.xpath: //div[@id = 'droppable' and (text() = '
+	Dropped!
+' or . = '
+	Dropped!
+')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-17 12:35:30 - [TEST_SUITE][FAILED] - TS_1: Test Cases/Drag_And_Drop/TC_1 FAILED because (of) Unable to click on object 'Object Repository/Drag_And_Drop/Page_Droppable  jQuery UI/div_Dropped' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Drag_And_Drop/Page_Droppable  jQuery UI/div_Dropped' located by 'By.xpath: //div[@id = 'droppable' and (text() = '
+	Dropped!
+' or . = '
+	Dropped!
+')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
